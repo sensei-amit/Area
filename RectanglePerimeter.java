@@ -17,10 +17,8 @@ class RectanglePerimeter {
     public void displayPerimeter() {
         System.out.println("Rectangle Perimeter: " + calculatePerimeter());
     }
-}
 
 
-public class RectangleApplication {
     public static void main(String[] args) {
         RectangleArea area = new RectangleArea(5, 3);
         RectanglePerimeter perimeter = new RectanglePerimeter(5, 3);
